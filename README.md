@@ -5,3 +5,8 @@ Random Number Generator class in Java allows generating random values for the fo
 Poisson, Exponential, Geometric, Pareto, ParetoBounded, Uniform or Constant
 
 Contact: zxy754219@gmail.com
+
+
+Example
+==========
+double rand = Exponential.getRandomVal(0.25);
