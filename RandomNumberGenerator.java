@@ -134,7 +134,7 @@ public enum RandomNumberGenerator {
 	public static final void main(String[] args){
 		//Testing 
 		
-		RandomNumberGenerator testStat = Pareto;
+		RandomNumberGenerator testStat = Exponential;
 		double lambda = 1.0 / 25.0;
 		System.out.println("Testing stat: " + testStat+ " with lambda: " + lambda);
 		for (int i = 0; i < 1000; i++){
